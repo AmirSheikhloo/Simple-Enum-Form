@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 25px;
+}
+
+.inputs select {
+  width: 280px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.submit-button {
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  margin-bottom: 20px;
+  width: 800px;
+  font-size: 30px;
+  border-collapse: collapse;
+  background-color: red; /* Change this to your desired color */
+}
+
+.table td {
+  font-size: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  font-size: 20px;
+  border: 1px solid rgb(34, 162, 194);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
