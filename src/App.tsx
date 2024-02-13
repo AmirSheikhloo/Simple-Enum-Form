@@ -41,7 +41,6 @@ function App() {
   return (
     <div className="container">
       <div className="border-container">
-        {/* Add a new div with a class name for the border */}
         <div className="inputs">
           <input
             type="text"
